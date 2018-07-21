@@ -1,0 +1,27 @@
+formatter:
+  configs:
+    -
+        name: decimal
+        dpl: 2
+        fpl: 3
+        scale: 4
+        multiplicator: 1
+    -
+        name: percentage
+        dpl: 1
+        fpl: 2
+        scale: 4
+        multiplicator: 100
+    -
+        name: permile
+        dpl: 1
+        fpl: 2
+        scale: 4
+        multiplicator: 1000
+    -
+        name: basispoint
+        dpl: 3
+        fpl: 1
+        scale: 2
+        multiplicator: 10000
+test: 123455
